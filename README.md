@@ -6,5 +6,5 @@
 **№**|**Описание**|**Ссылка**
 ---|:---|:---
 **1**|Игра "Виселица"|[код](https://github.com/aapetukhova/prog18/blob/master/homeworks/hw1/hw1.ipynb)
-
+**2**|json|[код](https://github.com/aapetukhova/prog18/blob/master/homeworks/hw2/hw2.ipynb)
 ![](http://aftrlaughtr.tumblr.com/image/176281084623)
