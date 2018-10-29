@@ -1,0 +1,1 @@
+[ссылка на корпус](https://drive.google.com/file/d/180atAWxWglC0CU1WWu5e0QVgcMA1KLXj/view?usp=sharing)
