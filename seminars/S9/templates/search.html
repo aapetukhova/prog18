@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>The Certain Languages</title>
+</head>
+<body>
+<p> {% for name, url in index_url.items()%}
+	<a href='{{ url }}'>{{ name }}</a>
+	{%endfor%}
+</p>
+<p>Languages you've searched:</p>
+<ul>
+    {% for lang, letter in lang_dict.items() %}
+        <li> {{lang}}, {{letter}}</li>
+    {%endfor%}
+</ul>
+</body>
+</html>

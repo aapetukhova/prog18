@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+</head>
+
+<body>
+
+<p>Language you've searched: {{ lang }}</p>
+<p>Languages that start from the same letter:</>
+<ul>
+    {% for lang, letter in lang_dict.items() %}
+        <li> {{lang}}, {{letter}}</li>
+    {%endfor%}
+</ul>
+</body>
+
+</html>
+
+dictor;sex;village;sound;f1;f2
