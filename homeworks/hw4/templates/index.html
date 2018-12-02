@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+	
+    <title>А как говорите Вы?</title>
+	
+</head>
+
+<body>
+
+<p><h2>Социолингвистическая анкета</h2></p>
+
+<a href="{{url_for('search')}}">Поиск</a>
+<a href="{{url_for('stats')}}">Статистика</a>
+<a href="{{url_for('json')}}">json</a>
+
+<p>Здравствуйте! Заполните, пожалуйста, анкету, после чего укажите, как вы произносите слова</p>
+
+<form>
+
+		<label>Имя: <input type="text" name="name"> </label><br>
+		
+		<label>Возраст: <input type="text" name="age"></label><br>
+		
+		<label>Пол: <br>
+		
+		<input type="radio" name="sex" value="male">Мужской<br>
+		
+		<input type="radio" name="sex" value="female">Женский<br>
+		
+		</label><br>
+		
+		<label>Родной город: <input type="text" name="city"> </label><br>
+		
+		<label>Родной язык: <input type="text" name="language"> </label><br>
+		
+		<label>Образование: <br>
+		
+		<input type="radio" name="education" value="school">Неполное среднее<br>
+		
+		<input type="radio" name="education" value="graduate">Среднее<br>
+		
+		<input type="radio" name="education" value="bachelor">Высшее<br>
+		
+		</label><br>
+		
+<p>А теперь - самое интересное! Где Вы ставите ударение?</p>
+
+		<label>		
+		<input type="radio" name="frs" value="фОрзац">фОрзац
+		
+		<input type="radio" name="frs" value="форзАц">форзАц<br>
+		
+		<input type="radio" name="cat" value="катАлог">катАлог
+		
+		<input type="radio" name="cat" value="каталОг">каталОг<br>
+		
+		<input type="radio" name="phe" value="фенОмен">фенОмен
+		
+		<input type="radio" name="phe" value="феномЕн">феномЕн<br>
+		
+		<input type="radio" name="new" value="НьЮтон">НьЮтон
+		
+		<input type="radio" name="new" value="НьютОн">НьютОн<br>
+		
+		<input type="radio" name="rad" value="рАджа">рАджа
+		
+		<input type="radio" name="rad" value="раджА">раджА<br>
+		
+		<input type="radio" name="hyu" value="ХЁндай">ХЁндай
+		
+		<input type="radio" name="hyu" value="ХёндАй">ХёндАй<br>
+		
+		</label><br>
+
+		<input type="submit" value="Отправить">
+
+	</form>
+	
+</body>
+
+</html>
+

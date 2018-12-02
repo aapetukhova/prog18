@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+	
+    <title>А вот и результат!</title>
+	
+</head>
+
+<body>
+
+<a href="{{url_for('index')}}">Главная страница</a>
+
+<p>Вы искали: </p>
+<p>Родной язык: {{ language }}</p>
+<p>Образование: {{ education }}</p>
+<p>Результат поиска:</p>
+<img src="{{ url_for('static', filename= 'results.png' )}}" height=800 width=1200/>
+	
+</body>
+
+</html>

@@ -1,0 +1,271 @@
+from flask import Flask
+from flask import url_for, render_template, request, redirect
+import csv
+import os
+import collections
+import matplotlib
+import matplotlib.pyplot as plt
+import json
+# import seaborn
+from matplotlib import style
+
+def plot(k):
+    style.use('ggplot')
+    s = []
+    n = 0
+    X = []
+    Y = []
+    with open('results.csv', 'r', encoding='utf-8') as csvfile:
+        filereader = csv.reader(csvfile, delimiter=';')
+        row1 = next(filereader)
+        xlabel = row1[k]
+        for row in filereader:
+            n += 1
+            if row[k] != xlabel:
+                s.append(row[k])
+        counter = collections.Counter(s)
+        for key, value in counter.items():
+            X.append(key)
+            Y.append(value)
+    plt.subplot(4, 3, k)
+    plt.scatter(X,Y)
+    plt.title(xlabel)
+    plt.xlim(-0.5, len(X)-0.5)
+    plt.ylim(0, n)
+    plt.ylabel('NUM')
+
+app = Flask(__name__)
+
+def query(k, language, education):
+    style.use('ggplot')
+    s = []
+    n = 0
+    X = []
+    Y = []
+    with open('results.csv', 'r', encoding='utf-8') as csvfile:
+        filereader = csv.reader(csvfile, delimiter=';')
+        row1 = next(filereader)
+        xlabel = row1[k]
+        for row in filereader:
+            if row[4] == language and row[5] == education:
+                n += 1
+                s.append(row[k])
+            counter = collections.Counter(s)
+            for key, value in counter.items():
+                X.append(key)
+                Y.append(value)
+        plt.subplot(4, 3, k)
+        plt.scatter(X,Y)
+        plt.title(xlabel)
+        plt.xlim(-0.5, len(X)-0.5)
+        plt.ylim(0, n+0.5)
+        plt.ylabel('NUM')
+
+##with open('results.csv', 'x', encoding='utf-8') as f:
+##    f.write('name')
+##    f.write(';')
+##    f.write('age')
+##    f.write(';')
+##    f.write('sex')
+##    f.write(';')
+##    f.write('city')
+##    f.write(';')
+##    f.write('language')
+##    f.write(';')
+##    f.write('education')
+##    f.write(';')
+##    f.write('frs')
+##    f.write(';')
+##    f.write('cat')
+##    f.write(';')
+##    f.write('phe')
+##    f.write(';')
+##    f.write('new')
+##    f.write(';')
+##    f.write('rad')
+##    f.write(';')
+##    f.write('hyu')
+##    f.write('\n')    
+
+@app.route('/')
+def questionnaire():
+    s = []
+    if request.args:
+        s.append(request.args['name'])
+        s.append(request.args['age'])
+        s.append(request.args['sex'])
+        s.append(request.args['city'])
+        s.append(request.args['language'])
+        s.append(request.args['education'])
+
+        s.append(request.args['frs'])
+        s.append(request.args['cat'])
+        s.append(request.args['phe'])
+        s.append(request.args['new'])
+        s.append(request.args['rad'])
+        s.append(request.args['hyu'])      
+
+        with open('results.csv', 'a', encoding='utf-8') as f:
+            for i in range(0, len(s)):
+                if i != len(s) - 1:
+                    f.write(s[i])
+                    f.write(';')
+                else:
+                    f.write(s[i])
+                    f.write('\n')            
+##            filereader = csv.reader(csvfile, delimiter=';', quotechar='|')
+##            for row in filereader:
+    return render_template('index.html')
+
+##def jsn():
+##    with open('results.csv', 'r', encoding='utf-8') as csvfile:
+##        filereader = csv.reader(csvfile, delimiter=';')
+##        rows = list(filereader)
+##    with open('file.json', 'x', encoding='utf-8') as f:
+##        json.dump(rows, f)
+
+@app.route('/json')
+def jsonout():
+    s = []
+    with open('results.csv', 'r', encoding='utf-8') as csvfile:
+        filereader = csv.reader(csvfile, delimiter=';')
+        rows = list(filereader)
+    with open('file.json', 'a', encoding='utf-8') as f:
+        json.dump(rows, f)
+    with open('file.json', 'r', encoding='utf-8') as f:
+        for item in f:
+            s.append(item)
+    return render_template('json.html', s=s)
+
+
+
+@app.route('/stats')
+def stats():
+    for i in range (1, 12):
+        plot(i)
+    plt.subplots_adjust(top=1, bottom=0, left=0.125, right=0.99, hspace=0.2,
+                    wspace=0.35)
+    plt.tight_layout()
+    plt.savefig('./static/plot.png', orientation='landscape', dpi=500)
+    return render_template('stats.html')
+
+@app.route('/results')
+def results():
+    if request.args:
+        language = request.args.get('language')
+        education = request.args.get('education')
+        if education == 'school':
+        rEd = 'Неполное среднее'
+    elif education == 'graduate':
+        rEd = 'Среднее'
+    elif education == 'bachelor':
+        rEd = 'Высшее'
+    for i in range (6, 11):
+        query(i, 'русский', 'school')
+    plt.subplots_adjust(top=1, bottom=0, left=0.125, right=0.99, hspace=0.2,
+                    wspace=0.35)
+    plt.tight_layout()
+    plt.savefig('./static/results.png', orientation='landscape', dpi=500)
+    return render_template('results.html', language=language, education=rEd)
+
+@app.route('/search')
+def search():
+##    if request.args:
+##        language = request.args['language']
+##        education = request.args['education']
+##        if education == 'school':
+##            rEd = 'Неполное среднее'
+##        elif education == 'graduate':
+##            rEd = 'Среднее'
+##        elif education == 'bachelor':
+##            rEd = 'Высшее'
+        return redirect(url_for('results'))
+##        return render_template('results.html', language=language, education=rEd)    
+    return render_template('search.html')
+    
+
+
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+
+
+
+
+
+
+домашка (НЕ БОЙСЯ!!!!! У ТЕБЯ ВСЕ ПОЛУЧИТСЯ И ТЫ ВСЕ СДАШЬ ВОВРЕМЯ, А ЕЩЕ И ПОСПИШЬ!!!!!)
+итак,
+
+главная страница - html - анкета с полями - данные с анкеты в csv - как это сделать?
+страница статистики html ./stats - систематизация результатов, вывод на экран - таблица, подсчеты - графики с последней темы?
+страница с выводом всех данных - html ./json - json со всеми введенными на сайте данными - что это значит? только за один проход или за все время?
+
+страница поиска - html ./search - минимум 2 поля поиска, описание, по каким данным ведется поиск
+какие у нас поиски? (смысла жизни)
+тоже график!
+графы поиска:
+образование
+язык
+
+смотрим в сым файле что удовлетворяет условию - 
+
+
+
+страница результатов - html ./results - собственно результаты - как их оформлять?
+
+социо - вариативность ударений
+инфо информанта - 
+родной город, 
+родной язык, 
+возраст - INT!
+образование, 
+пол
+
+форзац
+каталог
+феномен
+ньютон
+раджа
+хёндай
+
+сначала напишем анкету и скрипт к ней
+ ye;ty kb ktq,k&
+ создать csv-файл - записывать в csv - УРА, ФАЙЛЫ ЗАПИСЫВАЮТСЯ!!!!!!
+ систематизация результатов - график? читаем csv
+ х - информант
+ у - слово
+ударение на слог - точка цветом
+
+количество информантов - табличка
+
+пол
+возраст
+город
+образование
+язык - все это х - значение, у - количество
+и для каждого слова
+
+ДАААААААААААААА!
+
+
+поиск по родному городу и образованию - выдача вариантов для каждого слова
+форма с городом (строчная/прописная) и образованием - потом выдача в output - графики matplotlib - в csv файле ищем то, что удовлетворяет условиям? выдаем график
+
+<img src="{{ url_for('static', filename='plot_3.png' )}}" height=420 width=500/>
+
+
+будем доставать из csv файла данные для
+
+нужна функция, которая для каждого графика делает свою команду - но как, если я задаю все????
+сделаем все внутри
+
+
+<img src="{{ url_for('static', filename= 'results.png' )}}" height=1000 width=1200/>
+
+
+теперь работаем с query!!!!
+проверим, как там рабоает вывод
