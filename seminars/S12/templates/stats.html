@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+	
+    <title>А вот и статистика</title>
+	
+</head>
+
+<body>    
+
+<a href="{{url_for('index')}}">Главная страница</a>
+
+{% for item in a %}
+{{ item }}
+{% endfor %}
+
+
+
+</body>
+
+</html>
