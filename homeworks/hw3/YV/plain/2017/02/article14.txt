@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti 30 лет без водки
 @da 27.02.2017
 @topic None

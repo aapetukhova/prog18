@@ -1,0 +1,9 @@
+- {доставать=V,tran=praet,pl,indic,pf} {уже=ADV=} {этот=APRO=nom,pl|этот=APRO=acc,pl,inan} {солдат=S,m,anim=nom,pl} {удача=S,f,inan=acc,pl|удача=S,f,inan=gen,sg|удача=S,f,inan=nom,pl}.
+{сначала=ADV=} {бастрыкин=S,famn,m,anim=nom,sg} {жаловаться=V,ipf,intr=praet,sg,indic,m} {на=PR=} {информационный=A=acc,sg,plen,f} {война=S,f,inan=acc,sg}, {теперь=ADV=} {чайка=S,f,anim=nom,sg} {сетовать=V,ipf,intr=inpraes,sg,indic,3p}.
+{и=CONJ=}, {главное=ADV,parenth=}, {все=ADV=} {хотеть=V,ipf,tran=inpraes,pl,indic,3p} {подводить=V=inf,pf} {под=PR=} {этот=APRO=acc,sg,n|этот=APRO=nom,sg,n} {дело=S,n,inan=acc,sg|дело=S,n,inan=nom,sg} {ужесточение=S,n,inan=acc,pl|ужесточение=S,n,inan=gen,sg|ужесточение=S,n,inan=nom,pl}.
+{надо=ADV,praed=} {они=SPRO,pl=acc|они=SPRO,pl=gen} {в=PR=} {сирия=S,geo,f,inan=acc,sg} {отправлять=V,tran=inf,pf} – {пусть=PART=} {там=ADVPRO=} {реально=ADV=} {повоевать=V,pf,intr=inpraes,pl,indic,3p}!- {ох=INTJ=}, {и=CONJ=} {глупый=A=acc,sg,plen,m,inan|глупый=A=nom,sg,plen,m} {ты=SPRO,sg,2p=nom}, {рогатый=A=nom,sg,plen,f} {голова=S,f,inan=nom,sg}.
+{дело=S,n,inan=acc,sg|дело=S,n,inan=nom,sg} {не=PART=} {в=PR=} {информационный=A=abl,sg,plen,f|информационный=A=dat,sg,plen,f|информационный=A=gen,sg,plen,f|информационный=A=ins,sg,plen,f} {война=S,f,inan=abl,sg|война=S,f,inan=dat,sg}.
+{и=CONJ=} {не=PART=} {в=PR=} {запад=S,geo,m,inan=abl,sg}.
+{и=CONJ=} {даже=PART=} {не=PART=} {в=PR=} {пендоса?=S,geo,f,inan=abl,pl}.- {а=CONJ=} {в=PR=} {кто=SPRO,sg,m,anim=abl}?- {и=CONJ=} {не=PART=} {в=PR=} {кто=SPRO,sg,m,anim=abl}.
+{а=CONJ=} - {в=PR=} {что=SPRO,sg,n,inan=abl|что=SPRO,sg,n,inan=ins}!- {не=PART=} {понимать=V=praet,sg,indic,m,pf}?- {да=CONJ=} {ревновать=V,ipf,tran=inpraes,pl,indic,3p} {они=SPRO,pl=nom} {просто=PART=}.
+- ???- {к=PR=} {золотов=S,famn,m,anim=dat,sg}.

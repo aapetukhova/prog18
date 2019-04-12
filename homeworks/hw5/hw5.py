@@ -12,7 +12,7 @@ from flask import url_for, render_template, request, redirect
 
 def data():
     # назовем БД 'data.db'
-    conn = sqlite3.connect('data.db')
+    conn = sqlite3.connect('datab.db')
     c = conn.cursor()
     c.execute('CREATE TABLE IF NOT EXISTS \
                 articles(name text, plain text, mystem text, link text)')
@@ -59,31 +59,39 @@ def query_in_text(query):
     m = Mystem()
     lemmas = m.lemmatize(query)
     s = len(lemmas)
-#   список ссылок на статьи
+    #список ссылок на статьи
     links = []
-#   регулярное выражение, которое поможет в поиске слова/фразы
+    #регулярное выражение, которое поможет в поиске слова/фразы
     k = ''
     for i in range(0, s):
-        if lemmas[i] != '\n' and lemmas[i] != ' ':
+        if lemmas[i]!= '\n' and lemmas[i] != ' ':
             k += lemmas[i] + '=' + '.+?'
     conn = sqlite3.connect('data.db')
     c = conn.cursor()
-    #   выберем все mуstem-тексты
-    c.execute('SELECT mystem FROM articles')
-    a = c.fetchall()
+    #выберем все строки
+    c.execute('SELECT * FROM articles')
+    a = c.fetchall() 
+    D = {}
+    n = 0
+    d = {}
     for item in a:
-        # отдельный mуstem-текст
-        b = ''.join(str(item))
-        r = re.search(k, b)
-#       если регулярное выражение в тексте, вытаскиваем ссылку статьи
-        if r:
-            c.execute('SELECT link FROM articles WHERE mystem=?', item)
-            e = str(c.fetchone()).strip(symbols).strip("''")
-            if e not in links:
-                links.append(e)
+        n += 1
+        #отдельный mуstem-текст        
+        for i in range(0,4):
+#             print(i)
+            d['mystem'] = item[2]
+            r = re.search(k, d['mystem'])
+        #если регулярное выражение в тексте, вытаскиваем данные о статье        
+            if r:
+#             сделаем словарик d с данными о статье
+                d['name'] = item[0]
+                d['link'] = item[3]
+                d['plain'] = item[1]
+        D[n] = d        
     conn.commit()
     conn.close()
-    return links
+
+    return D
 
 # поисковик
 
@@ -104,8 +112,8 @@ def search():
 def results():
     if request.args:
         query = request.args['query']
-        links = query_in_text(query)
-        return render_template('results.html', query=query, links=links)
+        D = query_in_text(query)
+        return render_template('results.html', query=query, D=D)
     return redirect(url_for('search'))
 
 

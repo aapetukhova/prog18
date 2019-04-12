@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti Обыски у министра финансов
 @da 03.03.2017
 @topic None

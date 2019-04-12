@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti Осторожно, пропаганда!
 @da 07.06.2016
 @topic None

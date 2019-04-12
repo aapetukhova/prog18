@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti Старейшая жительница планеты скончалась в Японии в возрасте 117 лет
 @da 01.04.2015
 @topic None

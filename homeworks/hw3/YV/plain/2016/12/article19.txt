@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti До розыгрыша квартиры осталось 14 дней!
 @da 16.12.2016
 @topic None

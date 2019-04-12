@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti Якутск, 9 мая 2017 г. "Бессмертный полк"
 @da 09.05.2017
 @topic None

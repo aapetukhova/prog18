@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti Ничего себе подарочек на 23-е февраля!
 @da 23.02.2017
 @topic None

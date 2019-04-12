@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti Николай Мамчур
 @da 16.08.2016
 @topic None

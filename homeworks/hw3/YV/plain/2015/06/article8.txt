@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti Егору Борисову готовят "постановочные вопросы"
 @da 26.06.2015
 @topic None

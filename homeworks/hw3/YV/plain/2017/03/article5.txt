@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti Все лучшее -детям-2
 @da 13.03.2017
 @topic None

@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti 1111
 @da 03.06.2015
 @topic None

@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti "Белые списки" снова в суде
 @da 16.12.2016
 @topic None

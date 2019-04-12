@@ -15,12 +15,17 @@
 <p>Вы искали: {{ query }}</p>
 
 <p>Результат поиска:</p>
+<table>
 
-<ul>
-    {% for link in links %}
-        <li> <a href={{ link }}>{{ link }} </a> </li>
-    {% endfor %}
-</ul>
+{% for key, value in D.items() %}
+<tr>
+	<th><a href='{{ D[key]['link'] }}'>{{ D[key]['link'] }}</a></th>
+	<th> {{ D[key]['name'] }}</th>
+	<th> {{ D[key]['plain'] }}</th>
+{% endfor %}
+
+</tr>
+</table>
 
 </body>
 

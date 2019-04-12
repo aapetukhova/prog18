@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti Студенты провели акцию "Гололёду нет!" и отсыпали песком улицы
 @da 01.04.2015
 @topic None

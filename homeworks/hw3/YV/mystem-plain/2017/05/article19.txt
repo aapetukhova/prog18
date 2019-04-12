@@ -1,0 +1,12 @@
+- {я=SPRO,sg,1p=nom} {понимать=V=inpraes,sg,indic,1p,ipf,tran}, {лось=S,m,anim=acc,sg|лось=S,m,anim=gen,sg} {с=PR=} {олень=S,m,anim=ins,sg} {перепутывать=V,tran=inf,pf}.
+{один=APRO=acc,sg,m,anim|один=APRO=gen,sg,m|один=APRO=gen,sg,n} {рогатый=A=acc,sg,plen,m,anim|рогатый=A=gen,sg,plen,m|рогатый=A=gen,sg,plen,n} {с=PR=} {другой=APRO=dat,pl|другой=APRO=ins,sg,m|другой=APRO=ins,sg,n}.
+{но=CONJ=} {я=SPRO,sg,1p=acc|я=SPRO,sg,1p=gen} {называть=V,tran=inf,pf} {кот=S,m,anim=ins,sg}?!
+- {а=S,abbr=abl,pl|а=S,abbr=abl,sg|а=S,abbr=acc,pl|а=S,abbr=acc,sg|а=S,abbr=dat,pl|а=S,abbr=dat,sg|а=S,abbr=gen,pl|а=S,abbr=gen,sg|а=S,abbr=ins,pl|а=S,abbr=ins,sg|а=S,abbr=nom,pl|а=S,abbr=nom,sg}-{ха-ха=INTJ=}!
+{кот=S,m,anim=nom,sg}!- {замолчать=V,pf,tran=sg,imper,2p}!- {я=SPRO,sg,1p=nom} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,1p}!
+{кот=S,m,anim=nom,sg}!!!- {затыкаться=V,intr=sg,imper,2p,pf}, {лось=S,m,anim=nom,sg} {сохатыч?=S,patrn,m,anim=nom,sg}!- {ой=INTJ=}, {щас=ADV,inform=} {лопнуть=V,pf,intr=inpraes,sg,indic,1p}… {кот=S,m,anim=nom,sg}!
+{баюн?=S,f,anim=abl,pl|баюн?=S,f,anim=abl,sg|баюн?=S,f,anim=acc,pl|баюн?=S,f,anim=acc,sg|баюн?=S,f,anim=dat,pl|баюн?=S,f,anim=dat,sg|баюн?=S,f,anim=gen,pl|баюн?=S,f,anim=gen,sg|баюн?=S,f,anim=ins,pl|баюн?=S,f,anim=ins,sg|баюн?=S,f,anim=nom,pl|баюн?=S,f,anim=nom,sg}!
+{ах=INTJ=}-{ха-ха=INTJ=}!- {они=SPRO,pl=nom} {что=CONJ=} {мой=APRO=nom,pl|мой=APRO=acc,pl,inan} {зуб=S,m,inan=acc,pl|зуб=S,m,inan=nom,pl} {не=PART=} {видеть=V,ipf,tran=inpraes,pl,indic,3p}?!
+{я=SPRO,sg,1p=nom} {он=SPRO,sg,3p,m=nom}-{да=CONJ=}-{тыр?=S,m,anim=nom,sg}!
+{господин=S,m,anim=nom,sg} {ондатыр?=S,m,anim=nom,sg}!!!- {да=CONJ=} {ладно=PART=}, {успокаиваться=V,intr=sg,imper,2p,pf}!
+{зато=CONJ=} {народ=S,m,inan=acc,sg|народ=S,m,inan=nom,sg} {видеть=V,ipf,tran=inpraes,sg,indic,3p}, {что=CONJ=} {наш=APRO=acc,sg,n|наш=APRO=nom,sg,n} {мнение=S,n,inan=acc,sg|мнение=S,n,inan=nom,sg} – {главное=ADV,parenth=}.
+{гвоздевой=A=acc,sg,plen,n|гвоздевой=A=nom,sg,plen,n} {даже=PART=}!

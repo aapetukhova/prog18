@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti Угадай коробку и доберись до клада
 @da 11.05.2016
 @topic None

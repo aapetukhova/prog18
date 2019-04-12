@@ -1,0 +1,11 @@
+1. Основание села и сельские тухумы
+(1)	[xe	ʜür.i-n]	istːuri	mi-štːi-f	e.
+	наш:INCL	село-GEN	история	DEMM-ADV(GEN)-S	COP
+      История нашего села такова.
+(2)	xe	ʜür	ad-i-naje-f-e	xibu	fi.tːi-as,	xibu	tuχum.di-k-as
+	наш:INCL	село	приходить-PF-PT:PRF-S-COP	три	что-(IN)ELAT 	три	тухум-SUB/CONT-ELAT
+	ibarat	x-u-naje-f-e.
+	<образоваться>	стать-PF-PT:PRF-S-COP
+      Наше село произошло из трех этих самых, образовалось из трех тухумов.
+(3)	sa-d-punde	tuχum	e	ʁulliwar.
+	один-S-ORD	тухум	COP	Гулливар

@@ -1,0 +1,1 @@
+9 {май=S,sg,m,inan=gen} 2016 {г=S,abbr=abl,pl|г=S,abbr=abl,sg|г=S,abbr=acc,pl|г=S,abbr=acc,sg|г=S,abbr=dat,pl|г=S,abbr=dat,sg|г=S,abbr=gen,pl|г=S,abbr=gen,sg|г=S,abbr=ins,pl|г=S,abbr=ins,sg|г=S,abbr=nom,pl|г=S,abbr=nom,sg}.

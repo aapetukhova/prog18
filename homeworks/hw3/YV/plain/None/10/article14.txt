@@ -1,4 +1,4 @@
-@au Марина Егорова Рис. cartoonbank.ru 
+@au Марина Егорова Рис
 @ti Дело принципа
 @da 19.10.None
 @topic None

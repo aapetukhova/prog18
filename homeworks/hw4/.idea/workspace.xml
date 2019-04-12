@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66795a77-667e-4177-af14-b5674116c60c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/metadata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/metadata.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article19.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article21.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article22.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article23.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/03/article9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article19.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/04/article9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/06/article1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/06/article1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/06/article2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/06/article2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/06/article3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/06/article3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/06/article4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/06/article4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/06/article5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/06/article5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/06/article6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/06/article6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/06/article8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/YV/plain/2015/06/article8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/11/article46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2015/12/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/01/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/02/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/03/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/04/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/05/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/06/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/07/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/07/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/07/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/07/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/07/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/07/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/07/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/07/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/07/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/07/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/07/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/07/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/07/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/07/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/08/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/08/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/08/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/08/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/08/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/08/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/08/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/08/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/09/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/09/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/09/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/09/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/09/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/09/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/09/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/09/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/09/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/10/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/11/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2016/12/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/01/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/01/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/01/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/01/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/01/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/01/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/01/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/01/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/01/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/01/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/01/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/01/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/01/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/01/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/01/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/01/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/02/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/02/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/02/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/02/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/02/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/02/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/02/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/02/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/02/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/02/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/02/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/02/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/02/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/02/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/02/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/03/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/04/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/04/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/04/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/04/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/04/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/04/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/04/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/04/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/04/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/04/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/04/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/05/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/06/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/06/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/06/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/06/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/06/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/06/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/06/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/06/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/07/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/08/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/09/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/10/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/11/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/2017/12/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/01/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/01/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/01/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/01/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/01/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/01/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/01/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/01/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/01/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/01/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/02/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/03/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/04/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/05/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/06/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/07/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/08/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/09/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/YV/plain/None/10/article9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/continue.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/continue.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/the beginning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/the beginning.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/hw5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/hw5.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog - Ярлык.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seminars/S6/mystem.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../seminars/S6/mystem.ipynb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hw4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/points (6).csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw4" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66795a77-667e-4177-af14-b5674116c60c" name="Default Changelist" comment="" />
+      <created>1545435113289</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545435113289</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45698926" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3297546" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Downloads/points (6).csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

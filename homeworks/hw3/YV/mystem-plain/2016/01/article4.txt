@@ -1,0 +1,4 @@
+- {а=CONJ=} {вот=PART=} {сумочка=S,f,inan=nom,sg} {уборщица=S,f,anim=gen,sg|уборщица=S,f,anim=nom,pl} «{газпром=S,m,inan=gen,sg}»…- {отставать=V,intr=sg,imper,2p,pf}.
+{даже=PART=} {не=PART=} {начинать=V,tran=sg,imper,2p,ipf}.
+{отвлекать=V=inpraes,sg,indic,2p,ipf,tran}.- {от=PR=} {что=SPRO,sg,n,inan=gen}?- {я=SPRO,sg,1p=nom} {составлять=V,tran=inpraes,sg,indic,1p,ipf} {резюме=S,n,inan=abl,pl|резюме=S,n,inan=abl,sg|резюме=S,n,inan=acc,pl|резюме=S,n,inan=acc,sg|резюме=S,n,inan=dat,pl|резюме=S,n,inan=dat,sg|резюме=S,n,inan=gen,pl|резюме=S,n,inan=gen,sg|резюме=S,n,inan=ins,pl|резюме=S,n,inan=ins,sg|резюме=S,n,inan=nom,pl|резюме=S,n,inan=nom,sg}.
+{хотеть=V,ipf,tran=inpraes,sg,indic,1p} {устраиваться=V,intr=inpraes,sg,indic,3p,pf} {к=PR=} {он=SPRO,sg,3p,m=ins} {дворник=S,m,anim=ins,sg}.

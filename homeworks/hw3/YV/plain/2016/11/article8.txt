@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti В Якутске 40 домов останутся без газа
 @da 11.11.2016
 @topic None

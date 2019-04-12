@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti Заметки дилетанта 
 @da 31.03.2015
 @topic None

@@ -1,0 +1,8 @@
+- {ну=PART=}, {все=SPRO,pl=acc|все=SPRO,pl=nom}!
+{теперь=ADV=} {зажить=V,pf,tran=inpraes,pl,indic,1p|зажить=V,pf,tran=pl,imper,1p}!- {почему=ADVPRO=}?- {путин=S,famn,m,anim=nom,sg}, {наконец=ADV,parenth=}, {взяться=V,pf,intr=praet,sg,indic,m} {за=PR=} {коррупционер=S,m,anim=acc,pl|коррупционер=S,m,anim=gen,pl} {всерьез=ADV=}!
+{министр=S,m,anim=acc,sg|министр=S,m,anim=gen,sg} {улюкаев?=S,famn,m,anim=acc,sg|улюкаев?=S,famn,m,anim=gen,sg} {задерживать=V,tran=praet,pl,indic,pf}!
+{за=PR=} {взятка=S,f,inan=acc,sg}!- {и=PART=}?- {что=SPRO,sg,n,inan=acc|что=SPRO,sg,n,inan=nom} «{и=S,abbr=abl,pl|и=S,abbr=abl,sg|и=S,abbr=acc,pl|и=S,abbr=acc,sg|и=S,abbr=dat,pl|и=S,abbr=dat,sg|и=S,abbr=gen,pl|и=S,abbr=gen,sg|и=S,abbr=ins,pl|и=S,abbr=ins,sg|и=S,abbr=nom,pl|и=S,abbr=nom,sg}»?!
+{за=PR=} {взятка=S,f,inan=acc,sg}!
+{министр=S,m,anim=acc,sg|министр=S,m,anim=gen,sg}!
+{теперь=ADV=} {коррупционер=S,m,anim=nom,pl} {полететь=V,pf,intr=inpraes,pl,indic,3p}!
+{а=CONJ=} {путин=S,famn,m,anim=nom,sg} {быть=V,intr=praet,sg,indic,m,ipf} {с=PR=} {самый=APRO=acc,sg,m,anim|самый=APRO=gen,sg,m|самый=APRO=gen,sg,n} {начало=S,n,inan=acc,pl|начало=S,n,inan=gen,sg|начало=S,n,inan=nom,pl} {в=PR=} {курс=S,m,inan=abl,sg}!- {сердюк=S,m,anim=acc,pl|сердюк=S,m,anim=gen,pl} {и=CONJ=} {васильев=S,famn,m,anim=acc,sg|васильев=S,famn,m,anim=gen,sg}…- ....

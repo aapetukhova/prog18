@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html><body>
+<se><w><ana lex="в" gr="PR=" /></w> <w><ana lex="один" gr="APRO=acc,sg,m,inan" /><ana lex="один" gr="APRO=nom,sg,m" /></w> <w><ana lex="из" gr="PR=" /></w> <w><ana lex="редкий" gr="A=abl,pl,plen" /><ana lex="редкий" gr="A=acc,pl,plen,anim" /><ana lex="редкий" gr="A=gen,pl,plen" /></w> <w><ana lex="выходной" gr="A=abl,pl,plen" /><ana lex="выходной" gr="A=acc,pl,plen,anim" /><ana lex="выходной" gr="A=gen,pl,plen" /></w> <w><ana lex="день" gr="S,m,inan=gen,pl" /></w> - <w><ana lex="с" gr="PR=" /></w> <w><ana lex="дочка" gr="S,f,anim=ins,sg" /></w> <w><ana lex="на" gr="PR=" /></w> <w><ana lex="площадь" gr="S,f,inan=abl,sg" /><ana lex="площадь" gr="S,f,inan=acc,pl" /><ana lex="площадь" gr="S,f,inan=dat,sg" /><ana lex="площадь" gr="S,f,inan=gen,sg" /><ana lex="площадь" gr="S,f,inan=nom,pl" /></w> <w><ana lex="ленин" gr="S,famn,m,anim=acc,sg" /><ana lex="ленин" gr="S,famn,m,anim=gen,sg" /></w> ‪#‎<w><ana lex="якутск" gr="S,geo,m,inan=acc,sg" /><ana lex="якутск" gr="S,geo,m,inan=nom,sg" /></w>‬
+</se>
+</body></html>

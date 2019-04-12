@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html><body>
+<se><w><ana lex="ребенок" gr="S,m,anim=acc,sg" /><ana lex="ребенок" gr="S,m,anim=gen,sg" /></w> <w><ana lex="находить" gr="V=praet,pl,indic,pf,tran" /></w> <w><ana lex="за" gr="PR=" /></w> <w><ana lex="предел" gr="S,m,inan=ins,pl" /></w> <w><ana lex="медцентр" qual="bastard" gr="S,m,inan=gen,sg" /></w>.
+<w><ana lex="такой" gr="APRO=dat,pl" /><ana lex="такой" gr="APRO=ins,sg,m" /><ana lex="такой" gr="APRO=ins,sg,n" /></w> <w><ana lex="образ" gr="S,m,inan=ins,sg" /></w> <w><ana lex="подтверждаться" gr="V,intr=praet,sg,indic,f,pf" /></w> <w><ana lex="ранее" gr="ADV=" /></w> <w><ana lex="высказывать" gr="V=praet,nom,sg,partcp,plen,f,pf,pass" /></w> <w><ana lex="полицейский" gr="S,m,anim=ins,pl" /></w> <w><ana lex="версия" gr="S,f,inan=nom,sg" /></w> <w><ana lex="о" gr="PR=" /></w> <w><ana lex="то" gr="SPRO,sg,n,inan=abl" /></w>, <w><ana lex="что" gr="CONJ=" /></w> <w><ana lex="мальчик" gr="S,m,anim=nom,sg" /></w> <w><ana lex="мочь" gr="V,ipf,intr=inpraes,sg,indic,3p" /></w> <w><ana lex="находиться" gr="V,intr=inf,ipf" /></w> <w><ana lex="вне" gr="PR=" /></w> <w><ana lex="здание" gr="S,n,inan=acc,pl" /><ana lex="здание" gr="S,n,inan=gen,sg" /><ana lex="здание" gr="S,n,inan=nom,pl" /></w>.
+</se>
+</body></html>

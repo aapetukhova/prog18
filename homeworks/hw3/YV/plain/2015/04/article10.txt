@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti Белоснежная улыбка - это просто, стильно и современно! 
 @da 01.04.2015
 @topic None

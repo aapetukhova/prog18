@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti И снова о газе
 @da 25.11.2016
 @topic None

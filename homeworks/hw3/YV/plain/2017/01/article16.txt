@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti На святое замахнулись!
 @da 27.01.2017
 @topic None

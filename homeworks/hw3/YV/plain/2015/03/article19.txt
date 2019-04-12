@@ -1,4 +1,4 @@
-@au <a class="c_w" href="author?user="></a>
+@au None
 @ti Женские сапоги SALAMANDER (1990г.) 
 @da 31.03.2015
 @topic None
