@@ -7,7 +7,7 @@ with open('file2007.csv', encoding='utf-8') as csvfile: #reading the initial fil
     filereader = csv.reader(csvfile, delimiter='\t', quotechar='|') #divide words by a tab
     for row in filereader:
         for item in row: #for every item=word
-            tr = re.search('[a-züχ]+?', item)#if it's written with latin letters it's our case
+            tr = re.search('[a-züχʕšč]+?', item)#if it's written with latin letters it's our case
             if tr:
                 clean_item = item.strip(',.[]{}""?! ') #cleaning the item from punctuation and spaces
                 words.append(clean_item) #list of words
