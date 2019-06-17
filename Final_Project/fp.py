@@ -7,7 +7,7 @@ import os
 import nltk
 import pymorphy2
 import flask
-#from urllib import urllib.request
+#import urllib
 from gensim.models import word2vec
 from tqdm import tqdm
 # from pymystem3 import Mystem
@@ -27,10 +27,9 @@ morph = pymorphy2.MorphAnalyzer()
 
 def w2v():
     # скачиваем модель
-    urllib.request.urlretrieve(
-        "http://rusvectores.org/static/models/rusvectores2/\
-        ruscorpora_mystem_cbow_300_2_2015.bin.gz",
-        "ruscorpora_mystem_cbow_300_2_2015.bin.gz")
+    # urllib.request.urlretrieve(
+      #  "http://rusvectores.org/static/models/rusvectores2/ruscorpora_mystem_cbow_300_2_2015.bin.gz",
+       # "ruscorpora_mystem_cbow_300_2_2015.bin.gz")
     m = r'ruscorpora_mystem_cbow_300_2_2015.bin.gz'
     if m.endswith('.vec.gz'):
         model = \
