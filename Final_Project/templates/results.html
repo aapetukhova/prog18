@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+	
+	<meta charset="UTF-8">
+	
+	<title>Результаты</title>
+	
+</head>
+
+<body style='font: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; font-size: 14pt'>
+
+	<div style='background-color: Crimson; text-align: center'>
+	
+		<h2 style='padding-top: 30px'> Ваш результат: </h2><br>
+		<h3 style='padding-bottom: 50px'>{{ correct }} правильных ответов из 10</h3>
+
+	</div>
+
+	<div>
+	
+		<h3 style='text-align: center'>Статистика ответов</h3>
+		
+		<div>
+		
+			{% for i in range (0, 10) %}
+		
+				<p>Ваш ответ:</p>
+
+					<ul>
+				
+						<li>
+					
+							{% for who, text in users[i].items() %}
+						
+								{{ text }} - {{ who }}
+							
+							{% endfor %}
+						
+						</li>
+					
+					</ul>
+				
+				<p>Правильный ответ:</p>
+	
+					<ul>
+				
+						<li>
+					
+							{% for who, text in rights[i].items() %}
+						
+								{{ text[0] }} - {{ who }}
+							
+							{% endfor %}
+						
+						</li>
+					
+					</ul>
+		
+				{% endfor %}
+
+		</div>
+		
+	</div>
+
+	<div style='text-align: center'> 
+
+		<p>Хотите еще?</p>
+
+		<form action="{{url_for('index')}}">
+
+			<button type='submit' style='font-size: 20px; color: white; background: Crimson; padding: 15px 50px 15px 50px'>Сыграть еще раз</button>
+	
+		</form>
+		
+	</div>
+	
+</body>
+
+</html>

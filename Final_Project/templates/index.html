@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+	
+	<meta charset="UTF-8">
+	
+	<title>Мураками или компьютер?</title>
+	
+</head>
+
+<body style='font: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; font-size: 14pt'>
+
+	<div class='header' style='background-color: Crimson; color: black, text-align: center'>
+
+		<h1 style='padding-top: 30px'>Мураками или компьютер?</h1><br>
+	
+		<h3>Проверьте, сможете ли Вы отличить Мураками от компьютера?</h3><br>
+		
+	</div>
+
+<form action='/results'>
+
+	<div>
+	
+		{% for item in sent_list %}
+
+			<ul>
+			
+				{% for who, text in item.items() %}
+
+					<li> {{ text[0] }} <i>{{ text[1] }} </i> <br>
+					
+						<input type="radio" value = 'Мураками' name="{{ text[0] }}"> Это Харуки Мураками 
+					
+						<input type="radio" value = 'Компьютер' name="{{ text[0] }}"> Это Компьютер
+					
+					</li>
+
+				{% endfor %}
+				
+			</ul>
+			
+		{% endfor %}
+
+		<br>
+		<div style='text-align: center'>
+		
+			<input type="submit" value="Посмотреть результат" style='font-size: 20px; color: white; background: Crimson; padding: 15px 50px 15px 50px'>
+		
+		</div>
+	</div>
+
+</form>
+
+</body>
+
+</html>
