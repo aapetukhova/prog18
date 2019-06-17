@@ -26,11 +26,11 @@ morph = pymorphy2.MorphAnalyzer()
 
 def w2v():
     # скачиваем модель
-    # urllib.request.urlretrieve(
-    #    "http://rusvectores.org/static/models/rusvectores2/\
-    #    ruscorpora_mystem_cbow_300_2_2015.bin.gz",
-    #    "ruscorpora_mystem_cbow_300_2_2015.bin.gz")
-    m = r'C:\Users\annap\prog18\homeworks\hw7\ruscorpora_mystem_cbow_300_2_2015.bin.gz'
+    urllib.request.urlretrieve(
+        "http://rusvectores.org/static/models/rusvectores2/\
+        ruscorpora_mystem_cbow_300_2_2015.bin.gz",
+        "ruscorpora_mystem_cbow_300_2_2015.bin.gz")
+    m = r'ruscorpora_mystem_cbow_300_2_2015.bin.gz'
     if m.endswith('.vec.gz'):
         model = \
             gensim.models.KeyedVectors.load_word2vec_format(m, binary=False)
