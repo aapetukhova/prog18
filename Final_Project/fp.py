@@ -7,14 +7,15 @@ import os
 import nltk
 import pymorphy2
 import flask
-#import urllib
+##import urllib
 from gensim.models import word2vec
 from tqdm import tqdm
 # from pymystem3 import Mystem
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk import sent_tokenize
-# nltk.download('punkt')
+nltk.download('punkt')
+nltk.download('stopwords')
 from string import punctuation
 from random import choice
 from flask import Flask
@@ -26,23 +27,12 @@ morph = pymorphy2.MorphAnalyzer()
 
 
 def w2v():
-    # скачиваем модель
-    # urllib.request.urlretrieve(
-      #  "http://rusvectores.org/static/models/rusvectores2/ruscorpora_mystem_cbow_300_2_2015.bin.gz",
-       # "ruscorpora_mystem_cbow_300_2_2015.bin.gz")
-    m = r'ruscorpora_mystem_cbow_300_2_2015.bin.gz'
-    if m.endswith('.vec.gz'):
-        model = \
-            gensim.models.KeyedVectors.load_word2vec_format(m, binary=False)
-    elif m.endswith('.bin.gz'):
-        model = \
-            gensim.models.KeyedVectors.load_word2vec_format(m, binary=True)
-    else:
-        model = \
-            gensim.models.KeyedVectors.load(m)
+    dirname = os.getcwd()
+    m = os.path.join(dirname, 'ruscorpora_mystem_cbow_300_2_2015.bin.gz')
+    model = gensim.models.KeyedVectors.load_word2vec_format(m, binary=True)
     return model
 
-model = w2v()
+##model = w2v()
 # замена тэгов pymorphy2 на mystem
 pymorphyVSmystem = {
     'NOUN': 'S',
@@ -93,7 +83,8 @@ def inflections(word, pos):
 
 def files():
     filelist = []
-    start_path = r'.\texts'
+    dirname = os.getcwd()
+    start_path = os.path.join(dirname, 'texts')
     for filename in os.listdir(start_path):
         filepath = os.path.join(start_path, filename)
         filelist.append(filepath)
@@ -259,6 +250,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
+    model = w2v()
     sent_list = sentences()
     flask.g = sent_list
     return render_template('index.html', sent_list=sent_list)
