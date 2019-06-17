@@ -7,6 +7,7 @@ import os
 import nltk
 import pymorphy2
 import flask
+#from urllib import urllib.request
 from gensim.models import word2vec
 from tqdm import tqdm
 # from pymystem3 import Mystem
