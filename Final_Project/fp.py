@@ -14,8 +14,8 @@ from tqdm import tqdm
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk import sent_tokenize
-nltk.download('punkt')
-nltk.download('stopwords')
+##nltk.download('punkt')
+##nltk.download('stopwords')
 from string import punctuation
 from random import choice
 from flask import Flask
@@ -29,8 +29,9 @@ morph = pymorphy2.MorphAnalyzer()
 def w2v():
     dirname = os.getcwd()
     m = os.path.join(dirname, 'ruscorpora_mystem_cbow_300_2_2015.bin.gz')
+    global model
     model = gensim.models.KeyedVectors.load_word2vec_format(m, binary=True)
-    return model
+##    return model
 
 ##model = w2v()
 # замена тэгов pymorphy2 на mystem
@@ -219,6 +220,8 @@ def wordChange(raw, origin_model):
 
 
 # эта функция создает словарь автор (компьютер): фраза, произведение
+
+
 def comp():
     y = []
     d = sentSplit()
@@ -250,7 +253,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    model = w2v()
+##    model = w2v()
     sent_list = sentences()
     flask.g = sent_list
     return render_template('index.html', sent_list=sent_list)
@@ -276,7 +279,11 @@ def results():
 
 
 if __name__ == '__main__':
-    import os
-    app.debug = True
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
+    w2v()
+    app.run(debug=True)
+
+##if __name__ == '__main__':
+##    import os
+##    app.debug = True
+##    port = int(os.environ.get("PORT", 5000))
+##    app.run(host='0.0.0.0', port=port)
