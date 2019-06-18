@@ -7,15 +7,15 @@ import os
 import nltk
 import pymorphy2
 import flask
-##import urllib
+# import urllib
 from gensim.models import word2vec
 from tqdm import tqdm
 # from pymystem3 import Mystem
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk import sent_tokenize
-##nltk.download('punkt')
-##nltk.download('stopwords')
+# nltk.download('punkt')
+# nltk.download('stopwords')
 from string import punctuation
 from random import choice
 from flask import Flask
@@ -31,9 +31,9 @@ def w2v():
     m = os.path.join(dirname, 'ruscorpora_mystem_cbow_300_2_2015.bin.gz')
     global model
     model = gensim.models.KeyedVectors.load_word2vec_format(m, binary=True)
-##    return model
+#    return model
 
-##model = w2v()
+# model = w2v()
 # замена тэгов pymorphy2 на mystem
 pymorphyVSmystem = {
     'NOUN': 'S',
@@ -253,7 +253,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-##    model = w2v()
+    # model = w2v()
     sent_list = sentences()
     flask.g = sent_list
     return render_template('index.html', sent_list=sent_list)
@@ -282,8 +282,8 @@ if __name__ == '__main__':
     w2v()
     app.run(debug=True)
 
-##if __name__ == '__main__':
-##    import os
-##    app.debug = True
-##    port = int(os.environ.get("PORT", 5000))
-##    app.run(host='0.0.0.0', port=port)
+# if __name__ == '__main__':
+#    import os
+#    app.debug = True
+#    port = int(os.environ.get("PORT", 5000))
+#    app.run(host='0.0.0.0', port=port)
