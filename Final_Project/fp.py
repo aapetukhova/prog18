@@ -7,33 +7,34 @@ import os
 import nltk
 import pymorphy2
 import flask
-# import urllib
+import sys
+import logging
+import urllib
 from gensim.models import word2vec
 from tqdm import tqdm
-# from pymystem3 import Mystem
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk import sent_tokenize
-# nltk.download('punkt')
-# nltk.download('stopwords')
 from string import punctuation
 from random import choice
 from flask import Flask
 from flask import render_template, request, url_for, redirect
+nltk.download('punkt')
+nltk.download('stopwords')
 morph = pymorphy2.MorphAnalyzer()
-
 
 # работа с моделью (НКРЯ, 2015)
 
 
 def w2v():
-    dirname = os.getcwd()
-    m = os.path.join(dirname, 'ruscorpora_mystem_cbow_300_2_2015.bin.gz')
-    global model
+    urllib.request.urlretrieve("http://rusvectores.org/static/models/rusvectores2/ruscorpora_mystem_cbow_300_2_2015.bin.gz",
+                               "ruscorpora_mystem_cbow_300_2_2015.bin.gz")
+    m = 'ruscorpora_mystem_cbow_300_2_2015.bin.gz'
     model = gensim.models.KeyedVectors.load_word2vec_format(m, binary=True)
-#    return model
+    return model
 
-# model = w2v()
+
+model = w2v()
 # замена тэгов pymorphy2 на mystem
 pymorphyVSmystem = {
     'NOUN': 'S',
@@ -159,7 +160,7 @@ def onlyWords(wordlist):
 # оригинальное слово: слово из модели
 
 
-def wMDict(words, model):
+def wMDict(words):
     origin_model = {}
     word_info = {}
     normal_pos_infl = {}
@@ -228,7 +229,7 @@ def comp():
     phrase = d['Мураками'][0]
     raw = rawString(phrase)
     ow = onlyWords(raw)
-    origin_model = wMDict(ow, model)
+    origin_model = wMDict(ow)
     changed = wordChange(raw, origin_model)
     y.append(changed)
     y.append(d['Мураками'][1])
@@ -253,7 +254,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    # model = w2v()
     sent_list = sentences()
     flask.g = sent_list
     return render_template('index.html', sent_list=sent_list)
@@ -279,11 +279,4 @@ def results():
 
 
 if __name__ == '__main__':
-    w2v()
     app.run(debug=True)
-
-# if __name__ == '__main__':
-#    import os
-#    app.debug = True
-#    port = int(os.environ.get("PORT", 5000))
-#    app.run(host='0.0.0.0', port=port)
