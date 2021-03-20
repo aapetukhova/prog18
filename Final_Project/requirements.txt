@@ -1,6 +1,6 @@
 Flask==1.0.3
 gensim==3.7.3
-Jinja2==2.10
+Jinja2==2.11.3
 nltk==3.4.2
 pandas==0.24.2
 pandocfilters==1.4.2
